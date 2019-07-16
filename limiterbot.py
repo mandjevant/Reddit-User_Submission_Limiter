@@ -14,7 +14,7 @@ class limit_bot:
 		self.secret = # enter user secret ID
 		self.username = # enter user username
 		self.password = # enter user password
-		self.user_agent = 'Flairbot/0.1 by Mandjevant'
+		self.user_agent = 'LimiterBot/0.1 by Mandjevant'
 		self.reddit = praw.Reddit(client_id = self.id, client_secret = self.secret, password = self.password, user_agent = self.user_agent, username = self.username)
 
 		self.time_between_posts = 1800 # user can only post once every self.time_between_posts seconds
